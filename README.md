@@ -1,7 +1,7 @@
 # SuperconGAN
 
 A program to create a GAN using superconductivity data.
-It was inspired by CTGAN.
+It was inspired by and is based off of the CTGAN library for generated GANs for tabular datasets.
 
 ## Individual Parts
 
