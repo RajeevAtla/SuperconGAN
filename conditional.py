@@ -2,6 +2,7 @@ import numpy as np
 
 
 class ConditionalGenerator(object):
+
     def __init__(self, data, output_info, log_frequency):
         self.model = []
 
@@ -10,6 +11,7 @@ class ConditionalGenerator(object):
         max_interval = 0
         counter = 0
         for item in output_info:
+
             if item[1] == 'tanh':
                 start += item[0]
                 skip = True
@@ -65,8 +67,8 @@ class ConditionalGenerator(object):
 
     def random_choice_prob_index(self, idx):
         a = self.p[idx]
-        r = np.expand_dims(np.random.rand(a.shape[0]), axis=1)
-        return (a.cumsum(axis=1) > r).argmax(axis=1)
+        r = np.expand_dims(np.random.rand(a.shape[0]), axis = 1)
+        return (a.cumsum(axis = 1) > r).argmax(axis=1)
 
     def sample(self, batch):
         if self.n_col == 0:
@@ -75,8 +77,8 @@ class ConditionalGenerator(object):
         batch = batch
         idx = np.random.choice(np.arange(self.n_col), batch)
 
-        vec1 = np.zeros((batch, self.n_opt), dtype='float32')
-        mask1 = np.zeros((batch, self.n_col), dtype='float32')
+        vec1 = np.zeros((batch, self.n_opt), dtype = 'float32')
+        mask1 = np.zeros((batch, self.n_col), dtype = 'float32')
         mask1[np.arange(batch), idx] = 1
         opt1prime = self.random_choice_prob_index(idx)
         opt1 = self.interval[idx, 0] + opt1prime
@@ -98,7 +100,9 @@ class ConditionalGenerator(object):
         return vec
 
     def generate_cond_from_condition_column_info(self, condition_info, batch):
-        vec = np.zeros((batch, self.n_opt), dtype='float32')
+        vec = np.zeros((batch, self.n_opt), dtype = 'float32')
         id = self.interval[condition_info["discrete_column_id"]][0] + condition_info["value_id"]
         vec[:, id] = 1
         return vec
+
+
