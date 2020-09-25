@@ -6,6 +6,7 @@ It was inspired by and is based off of the CTGAN library for generated GANs for 
 ## Individual Parts
 
 ### read_data.py
+
 This program reads data.
 The input is:
 - the filename of the csv file name you wish to read (csv_filename)
@@ -18,4 +19,5 @@ The output is:
 - Which columns are discrete (discrete_columns)
 
 ### conditional.py
+
 This program sets up a conditional GAN.
