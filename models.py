@@ -72,3 +72,4 @@ class Generator(Module):
     def forward(self, input):
         data = self.seq(input)
         return data
+    
