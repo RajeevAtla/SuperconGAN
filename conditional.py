@@ -1,7 +1,14 @@
+"""
+TODO
+"""
+
 import numpy as np
 
 
 class ConditionalGenerator(object):
+    """
+    TODO
+    """
 
     def __init__(self, data, output_info, log_frequency):
         self.model = []
@@ -66,15 +73,20 @@ class ConditionalGenerator(object):
         self.interval = np.asarray(self.interval)
 
     def random_choice_prob_index(self, idx):
+        """
+        TODO
+        """
         a = self.p[idx]
         r = np.expand_dims(np.random.rand(a.shape[0]), axis = 1)
         return (a.cumsum(axis = 1) > r).argmax(axis=1)
 
     def sample(self, batch):
+        """
+        TODO
+        """
         if self.n_col == 0:
             return None
 
-        batch = batch
         idx = np.random.choice(np.arange(self.n_col), batch)
 
         vec1 = np.zeros((batch, self.n_opt), dtype = 'float32')
@@ -87,6 +99,9 @@ class ConditionalGenerator(object):
         return vec1, mask1, idx, opt1prime
 
     def sample_zero(self, batch):
+        """
+        TODO
+        """
         if self.n_col == 0:
             return None
 
@@ -100,9 +115,10 @@ class ConditionalGenerator(object):
         return vec
 
     def generate_cond_from_condition_column_info(self, condition_info, batch):
+        """
+        TODO
+        """
         vec = np.zeros((batch, self.n_opt), dtype = 'float32')
         id = self.interval[condition_info["discrete_column_id"]][0] + condition_info["value_id"]
         vec[:, id] = 1
         return vec
-
-

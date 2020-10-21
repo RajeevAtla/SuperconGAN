@@ -1,11 +1,19 @@
+"""
+TODO
+"""
 import torch
 from torch.nn import BatchNorm1d, Dropout, LeakyReLU, Linear, Module, ReLU, Sequential
 
 
 class Discriminator(Module):
+    """
+    TODO
+    """
 
     def calc_gradient_penalty(self, real_data, fake_data, device = 'cpu', pac = 10, lambda_ = 10):
-
+        """
+        TODO
+        """
         alpha = torch.rand(real_data.size(0) // pac, 1, 1, device = device)
         alpha = alpha.repeat(1, pac, real_data.size(1))
         alpha = alpha.view(-1, real_data.size(1))
