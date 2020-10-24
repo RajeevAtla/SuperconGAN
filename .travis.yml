@@ -1,0 +1,8 @@
+sudo: required
+dist: focal # Ubuntu 20.04
+services: docker # Enables docker
+script:
+- cd paper
+- wget https://raw.githubusercontent.com/blang/latex-docker/master/latexdockercmd.sh
+- chmod +x latexdockercmd.sh
+- ./latexdockercmd.sh latexmk -pdf -outdir=./_build
