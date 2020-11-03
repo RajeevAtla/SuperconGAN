@@ -10,7 +10,7 @@ script:
 
 deploy:
   provider: releases
-  api_key: "${{ secrets.SuperSecret }}"
+  api_key: "${{ secrets.OAUTHTOKEN }}"
   file: "_build/main.pdf"
   skip_cleanup: true
   on:
