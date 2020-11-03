@@ -1,5 +1,6 @@
 sudo: required
 dist: focal # Ubuntu 20.04
+language: generic
 services: docker # Enables docker
 
 script:
