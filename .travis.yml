@@ -11,7 +11,7 @@ script:
 
 deploy:
   provider: releases
-  api_key: "${{ secrets.OAUTHTOKEN }}"
+  github-token: $GITHUB_TOKEN
   file: "_build/main.pdf"
   skip_cleanup: true
   draft: true
