@@ -14,3 +14,4 @@ deploy:
   api_key: "${{ secrets.OAUTHTOKEN }}"
   file: "_build/main.pdf"
   skip_cleanup: true
+  draft: true
