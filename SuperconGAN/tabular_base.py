@@ -57,16 +57,16 @@ class BaseTabularModel:
 
     _metadata = None
 
-    def __init__(self, field_names=None, field_types=None, field_transformers=None,
-                 anonymize_fields=None, primary_key=None, constraints=None, table_metadata=None):
+    def __init__(self, field_names = None, field_types = None, field_transformers = None,
+                 anonymize_fields = None, primary_key = None, constraints = None, table_metadata = None):
         if table_metadata is None:
             self._metadata = Table(
-                field_names=field_names,
-                primary_key=primary_key,
-                field_types=field_types,
-                anonymize_fields=anonymize_fields,
-                constraints=constraints,
-                dtype_transformers=self._DTYPE_TRANSFORMERS,
+                field_names = field_names,
+                primary_key = primary_key,
+                field_types = field_types,
+                anonymize_fields = anonymize_fields,
+                constraints = constraints,
+                dtype_transformers = self._DTYPE_TRANSFORMERS,
             )
             self._metadata_fitted = False
         else:
@@ -119,7 +119,7 @@ class BaseTabularModel:
         """
         return self._metadata
 
-    def sample(self, num_rows=None, max_retries=100):
+    def sample(self, num_rows = None, max_retries = 100):
         """Sample rows from this table.
         Args:
             num_rows (int):
@@ -215,5 +215,6 @@ class BaseTabularModel:
             TabularModel:
                 The loaded tabular model.
         """
-        with open(path, 'rb') as f:
-            return pickle.load(f)
+        with open(path, 'rb') as file:
+            return pickle.load(file)
+        

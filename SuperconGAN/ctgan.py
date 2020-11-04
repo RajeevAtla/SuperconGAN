@@ -72,21 +72,21 @@ class CTGAN(BaseTabularModel):
         'O': 'label_encoding'
     }
 
-    def __init__(self, field_names=None, field_types=None, field_transformers=None,
-                 anonymize_fields=None, primary_key=None, constraints=None, table_metadata=None,
-                 epochs=300, log_frequency=True, embedding_dim=128, gen_dim=(256, 256),
-                 dis_dim=(256, 256), l2scale=1e-6, batch_size=500, verbose=False, cuda=True):
+    def __init__(self, field_names = None, field_types = None, field_transformers = None,
+                 anonymize_fields = None, primary_key = None, constraints = None, table_metadata = None,
+                 epochs = 300, log_frequency = True, embedding_dim = 128, gen_dim = (256, 256),
+                 dis_dim = (256, 256), l2scale = 1e-6, batch_size = 500, verbose = False, cuda = True):
         super().__init__(
-            field_names=field_names,
-            primary_key=primary_key,
-            field_types=field_types,
-            anonymize_fields=anonymize_fields,
-            constraints=constraints,
-            table_metadata=table_metadata
+            field_names = field_names,
+            primary_key = primary_key,
+            field_types = field_types,
+            anonymize_fields = anonymize_fields,
+            constraints = constraints,
+            table_metadata = table_metadata
         )
         try:
             from ctgan import CTGANSynthesizer  # Lazy import to make dependency optional
-
+            #TODO
             self._CTGAN_CLASS = CTGANSynthesizer
         except ImportError as ie:
             ie.msg += (
@@ -112,11 +112,11 @@ class CTGAN(BaseTabularModel):
                 Data to be learned.
         """
         self._model = self._CTGAN_CLASS(
-            embedding_dim=self._embedding_dim,
-            gen_dim=self._gen_dim,
-            dis_dim=self._dis_dim,
-            l2scale=self._l2scale,
-            batch_size=self._batch_size,
+            embedding_dim = self._embedding_dim,
+            gen_dim = self._gen_dim,
+            dis_dim = self._dis_dim,
+            l2scale = self._l2scale,
+            batch_size = self._batch_size,
         )
 
         import torch
@@ -138,17 +138,17 @@ class CTGAN(BaseTabularModel):
         if self._verbose:
             self._model.fit(
                 table_data,
-                epochs=self._epochs,
-                discrete_columns=categoricals,
-                log_frequency=self._log_frequency,
+                epochs = self._epochs,
+                discrete_columns = categoricals,
+                log_frequency = self._log_frequency,
             )
         else:
             with contextlib.redirect_stdout(io.StringIO()):
                 self._model.fit(
                     table_data,
-                    epochs=self._epochs,
-                    discrete_columns=categoricals,
-                    log_frequency=self._log_frequency,
+                    epochs = self._epochs,
+                    discrete_columns = categoricals,
+                    log_frequency = self._log_frequency,
                 )
 
     def _sample(self, num_rows):
