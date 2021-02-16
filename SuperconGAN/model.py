@@ -32,7 +32,7 @@ class Synthesizer():
         discriminator_decay (float):
             Discriminator weight decay for the Adam Optimizer. Defaults to 1e-6.
         batch_size (int):
-            Number of data samples to process in each step.
+            Number of data samples to process in each step. Has to be divisible by 10.
         discriminator_steps (int):
             Number of discriminator updates to do for each generator update.
             From the WGAN paper: https://arxiv.org/abs/1701.07875. WGAN paper
@@ -63,7 +63,10 @@ class Synthesizer():
 
         if verbose:
             print("Started initializing model!")
-        assert batch_size % 10 == 0
+
+
+        if batch_size % 10 != 0:
+            raise ValueError('Batch size must be divisible by 10.')
 
         model = CTGANSynthesizer(
             embedding_dim = embedding_dim,
