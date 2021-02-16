@@ -1,3 +1,6 @@
+"""
+This module sets up the package and is run everytime the package is installed.
+"""
 import setuptools
 
 install_requires = [
