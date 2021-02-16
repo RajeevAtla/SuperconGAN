@@ -4,7 +4,7 @@ This module sets up the package and is run everytime the package is installed.
 import setuptools
 
 install_requires = [
-    'ctgan'
+    'ctgan',
     'torch<2,>=1.0',
     'torchvision<1,>=0.4.2',
     'scikit-learn<0.24,>=0.21',
@@ -19,7 +19,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "SuperconGAN", # Replace with your own username
-    version = "0.0.4",
+    version = "0.0.9",
     author = "Rajeev Atla",
     author_email = "rajeev@rajeevatla.com",
     description = "GAN trained on superconductivity data",
