@@ -19,3 +19,7 @@ import SuperconGAN
 model = SuperconGAN.Synthesizer(verbose = True)
 model.fit()
 ```
+
+## Documentation
+
+Will be added shortly.
