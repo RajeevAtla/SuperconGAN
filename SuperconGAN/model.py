@@ -61,7 +61,8 @@ class Synthesizer():
         verbose = True,
         epochs = 300):
 
-        print("Started initializing model!")
+        if verbose:
+            print("Started initializing model!")
         assert batch_size % 10 == 0
 
         model = CTGANSynthesizer(
@@ -78,7 +79,9 @@ class Synthesizer():
             verbose = verbose,
             epochs = epochs)
 
-        print("Started importing data!")
+        if verbose:
+            print("Started importing data!")
+
         url_1 = "https://raw.githubusercontent.com/RajeevAtla/Superconductivity-Dataset/master/train.csv"
         url_2 = "https://raw.githubusercontent.com/RajeevAtla/Superconductivity-Dataset/master/unique_m.csv"
         material_data = pd.read_csv(url_1, header = 0, sep = ",")
@@ -89,28 +92,32 @@ class Synthesizer():
         data = material_data.join(element_data)
         discrete_columns = ['number_of_elements']
 
-        print("Finished importing data!")
+        if verbose:
+            print("Finished importing data!")
 
-
+        self.verbose = verbose
         self.model = model
         self.data, self.discrete_columns = data, discrete_columns
 
-        print("Finished initializing model!")
+        if verbose:
+            print("Finished initializing model!")
 
     def fit(self):
 
         """
         Function to fit to superconductivity data.
         """
-
-        print("Started fitting data!")
+        if self.verbose:
+            print("Started fitting data!")
 
         model = self.model
         data = self.data
         discrete_columns = self.discrete_columns
 
         model.fit(data, discrete_columns)
-        print("Finished fitting data!")
+
+        if self.verbose:
+            print("Finished fitting data!")
 
     def sample(
         self,
@@ -129,8 +136,8 @@ class Synthesizer():
                 Name of the category in the condition_column which we wish to increase the
                 probability of happening.
         """
-
-        print("Started sampling data!")
+        if self.verbose:
+            print("Started sampling data!")
 
         model = self.model
 
@@ -139,7 +146,8 @@ class Synthesizer():
             condition_column = condition_column,
             condition_value = condition_value)
 
-        print("Finished sampling data!")
+        if self.verbose:
+            print("Finished sampling data!")
 
         return samples
 
@@ -150,28 +158,33 @@ class Synthesizer():
                 File path to where the model should be saved and what the .pkl file's name should
                 be.
         """
-        print("Started saving model!")
+        if self.verbose:
+            print("Started saving model!")
 
         model = self.model
 
         model.save(path)
 
-        print("Finished saving model!")
+        if self.verbose:
+            print("Finished saving model!")
 
     @staticmethod
-    def load(path):
+    def load(self, path):
         """
         Args:
             path (string):
                 File path to where the model should be saved and what the .pkl file's name should
                 be.
         """
-        print("Started loading model!")
+
+        if self.verbose:
+            print("Started loading model!")
 
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
         model = torch.load(path)
         model.set_device(device)
 
-        print("Finished loading model!")
+        if self.verbose:
+            print("Finished loading model!")
         

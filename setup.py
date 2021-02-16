@@ -18,8 +18,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "SuperconGAN", # Replace with your own username
-    version = "0.0.9",
+    name = "SuperconGAN",
+    version = "0.1.2",
     author = "Rajeev Atla",
     author_email = "rajeev@rajeevatla.com",
     description = "GAN trained on superconductivity data",
