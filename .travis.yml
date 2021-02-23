@@ -12,7 +12,11 @@ python:
   
 before_install:
   - python -m pip install --upgrade pip
+
 install:
   - python3 -m pip install --upgrade SuperconGAN --use-feature=2020-resolver
   - python3 -m pip install --upgrade pytest
-  - pytest --version
+  - python3 -m pytest --version
+
+script:
+  - python3 -m pytest

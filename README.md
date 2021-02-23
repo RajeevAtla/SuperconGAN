@@ -16,7 +16,7 @@ To get a feel for the package, try running the following code, after installing 
 ```python
 import SuperconGAN
 
-model = SuperconGAN.Synthesizer(verbose = True)
+model = SuperconGAN.Synthesizer()
 model.fit()
 ```
 

@@ -19,7 +19,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "SuperconGAN",
-    version = "0.1.2",
+    version = "0.1.3",
     author = "Rajeev Atla",
     author_email = "rajeev@rajeevatla.com",
     description = "GAN trained on superconductivity data",

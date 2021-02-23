@@ -10,7 +10,7 @@ class Synthesizer():
     """
     The class to make the model.
 
-    The following is from CTGAN.
+    The following is from CTGAN's documentation.
 
     For more details about the process, please check the [Modeling Tabular data using
     Conditional GAN](https://arxiv.org/abs/1907.00503) paper.
