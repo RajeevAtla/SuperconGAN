@@ -20,5 +20,6 @@ install:
   - python3 -m pip install --upgrade pytest
   - python3 -m pytest --version
 
+
 script:
-  - python3 -m pytest
+  - travis wait python3 -m pytest
