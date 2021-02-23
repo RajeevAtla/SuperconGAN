@@ -8,7 +8,6 @@ python:
   - "3.9"
   - "3.9-dev"  # 3.9 development branch
   - "nightly"  # nightly build
-  - "pypy"   # currently Python 2.7.13, PyPy 7.1.1
   - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
   
 before_install:
@@ -16,6 +15,7 @@ before_install:
 
 install:
   - python3 -m pip install --upgrade SuperconGAN
+  - python3 -m pip install --upgrade ctgan
   - python3 -m pip install --upgrade pytest
   - python3 -m pytest --version
 
