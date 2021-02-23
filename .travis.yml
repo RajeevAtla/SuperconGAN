@@ -15,7 +15,6 @@ before_install:
 
 install:
   - python3 -m pip install --upgrade SuperconGAN
-  - python3 -m pip install --upgrade ctgan
   - python3 -m pip install --upgrade pytest
   - python3 -m pytest --version
 
