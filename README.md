@@ -11,7 +11,7 @@ python3 -m pip install SuperconGAN --upgrade
 
 ## Starter Example
 
-To get a feel for the package, try running the following code:
+To get a feel for the package, try running the following code, after installing the package (above):
 
 ```python
 import SuperconGAN
