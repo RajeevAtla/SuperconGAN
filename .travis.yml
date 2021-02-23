@@ -10,6 +10,7 @@ python:
   - "pypy"   # currently Python 2.7.13, PyPy 7.1.1
   - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
   
+before_install:
+  - python -m pip install --upgrade pip
 install:
-  - python3 -m pip install --upgrade pip
-  - python3 -m pip install --upgrade SuperconGAN
+  - python3 -m pip install --upgrade SuperconGAN --use-feature=2020-resolver
