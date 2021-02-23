@@ -1,5 +1,7 @@
 # SuperconGAN
 
+[![Build Status](https://travis-ci.com/RajeevAtla/SuperconGAN.svg?branch=master)](https://travis-ci.com/RajeevAtla/SuperconGAN)
+
 A program to train a GAN using superconductivity data.
 It was inspired by and is based off of the CTGAN library for generating GANs for tabular datasets.
 
