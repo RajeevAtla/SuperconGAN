@@ -19,7 +19,8 @@ To get a feel for the package, try running the following code, after installing 
 import SuperconGAN
 
 model = SuperconGAN.Synthesizer()
-model.fit()
+model.fit(epochs = 5)
+model.sample(n = 10)
 ```
 
 ## Documentation
