@@ -1,7 +1,7 @@
 # SuperconGAN
 
 [![Build Status](https://travis-ci.com/RajeevAtla/SuperconGAN.svg?branch=master)](https://travis-ci.com/RajeevAtla/SuperconGAN)
-[![Downloads](https://static.pepy.tech/personalized-badge/supercongan?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloadshttps://static.pepy.tech/personalized-badge/supercongan?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads)](https://pepy.tech/project/supercongan)
+[![Downloads](https://static.pepy.tech/personalized-badge/supercongan?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads)](https://pepy.tech/project/supercongan)
 
 A program to train a GAN using superconductivity data.
 It was inspired by and is based off of the CTGAN library for generating GANs for tabular datasets.
