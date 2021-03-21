@@ -5,10 +5,10 @@ import setuptools
 
 install_requires = [
     'ctgan',
-    'sdv'
+    'sdv',
     'torch<2,>=1.0',
     'torchvision<1,>=0.4.2',
-    'scikit-learn<0.3,>=0.21',
+    'scikit-learn==0.24.1',
     'numpy==1.20.1',
     'pandas<2,>=0.24',
     'rdt>=0.2.7,<=0.4.0',
@@ -20,7 +20,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = "SuperconGAN",
-    version = "0.2.1",
+    version = "0.2.5",
     author = "Rajeev Atla",
     author_email = "rajeev@rajeevatla.com",
     description = "GAN trained on superconductivity data",

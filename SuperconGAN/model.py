@@ -14,6 +14,7 @@ class Synthesizer():
 
     For more details about the process, please check the [Modeling Tabular data using
     Conditional GAN](https://arxiv.org/abs/1907.00503) paper.
+
     Args:
         embedding_dim (int):
             Size of the random sample passed to the Generator. Defaults to 128.
@@ -35,7 +36,7 @@ class Synthesizer():
             Number of data samples to process in each step. Has to be divisible by 10.
         discriminator_steps (int):
             Number of discriminator updates to do for each generator update.
-            From the WGAN paper: https://arxiv.org/abs/1701.07875. WGAN paper
+            From the [WGAN paper](https://arxiv.org/abs/1701.07875). WGAN paper
             default is 5. Default used is 1 to match original CTGAN implementation.
         log_frequency (boolean):
             Whether to use log frequency of categorical levels in conditional
