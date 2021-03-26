@@ -55,7 +55,7 @@ class Validator():
                 synthetic_data = self.predicted_data,
                 target = target)
 
-            val_scores.append(score)
+            val_scores = np.append(val_scores, score)
 
         for score in val_scores:
             score = np.tanh(score)

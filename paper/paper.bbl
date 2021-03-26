@@ -1,0 +1,554 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{blank1988}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fad3f1dfa362512603787a65298b58e7}{%
+           family={Blank},
+           familyi={B\bibinitperiod},
+           given={D\bibnamedelima H\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ccce9ed047484a18721ba508dacc59e2}{%
+           family={Kruidhof},
+           familyi={K\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=30540fd8f5eb8cfd078106fa1021d5fc}{%
+           family={Flokstra},
+           familyi={F\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{f305974cad22d1401a2ef0a4602949f2}
+      \strng{fullhash}{7e6721143c00d44cb45248e889071970}
+      \strng{bibnamehash}{7e6721143c00d44cb45248e889071970}
+      \strng{authorbibnamehash}{7e6721143c00d44cb45248e889071970}
+      \strng{authornamehash}{f305974cad22d1401a2ef0a4602949f2}
+      \strng{authorfullhash}{7e6721143c00d44cb45248e889071970}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A recent preparation method by citrate synthesis in combination with pyrolysis has been applied to the new high-Tc superconductors. A step-by-step procedure is given to obtain the ultra-fine and homogeneous powder. X-ray diffraction analyses were performed to characterise the powder and to study the influence of the calcination temperature. Resistance measurements exhibit complete superconductivity at 91.2 K.}
+      \field{journaltitle}{Journal of Physics D: Applied Physics}
+      \field{number}{1}
+      \field{title}{Preparation of {YBa}$_2${C}u$_3${O}$_{7-\delta}$ by citrate synthesis and pyrolysis}
+      \field{volume}{21}
+      \field{year}{1988}
+      \field{pages}{226\bibrangedash 227}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1088/0022-3727/21/1/036
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/0022-3727/21/1/036
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/0022-3727/21/1/036
+      \endverb
+    \endentry
+    \entry{zaki_saleem_anwar_2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=10a20313705adaf134304bd6b27a09a6}{%
+           family={Zaki},
+           familyi={Z\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fbc10f25d2288aebdb25e1f4dabd5be6}{%
+           family={Saleem},
+           familyi={S\bibinitperiod},
+           given={Murtaza},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4c7aa639b62fc5de5ae40c57bb526471}{%
+           family={Anwar},
+           familyi={A\bibinitperiod},
+           given={Muhammad\bibnamedelima Sabieh},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9580ccbf95dc35922f7f0b763908abe7}
+      \strng{fullhash}{24550c98abf23e6f5ab34c9c6e1c446b}
+      \strng{bibnamehash}{24550c98abf23e6f5ab34c9c6e1c446b}
+      \strng{authorbibnamehash}{24550c98abf23e6f5ab34c9c6e1c446b}
+      \strng{authornamehash}{9580ccbf95dc35922f7f0b763908abe7}
+      \strng{authorfullhash}{24550c98abf23e6f5ab34c9c6e1c446b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PhysLab}
+      \field{title}{Synthesis of high temperature superconductor using citrate pyrolysis and observing the Meissner effect}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://physlab.org/wp-content/uploads/2016/04/Superconductor_manual1.pdf
+      \endverb
+      \verb{url}
+      \verb https://physlab.org/wp-content/uploads/2016/04/Superconductor_manual1.pdf
+      \endverb
+    \endentry
+    \entry{GAN}{misc}{}
+      \name{author}{8}{}{%
+        {{hash=d4f74ef4c79f3bb1e51e378184d8850e}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a341d25f80a8118cdbb90b272adc8b4f}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9e80f4779b032f68a6106e1424345450}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=743dd6cdaa6639320289d219d351d7b7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e8151f1b8f85a048cacb34f374ec922b}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
+           family={Ozair},
+           familyi={O\bibinitperiod},
+           given={Sherjil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{fullhash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{bibnamehash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{authorbibnamehash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{authornamehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{authorfullhash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{stat.ML}
+      \field{eprinttype}{arXiv}
+      \field{title}{Generative Adversarial Networks}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1406.2661
+      \endverb
+    \endentry
+    \entry{patki_wedge_veeramachaneni_2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=405832ebe6d02966da481c193fcc7d42}{%
+           family={Patki},
+           familyi={P\bibinitperiod},
+           given={Neha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7c6f8dfaa343b5facf3c008a709717db}{%
+           family={Wedge},
+           familyi={W\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4f9e11fe0b69785748cd8f7d4a672635}{%
+           family={Veeramachaneni},
+           familyi={V\bibinitperiod},
+           given={Kalyan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e4f60ae876079ac622b5c4f756512ad}
+      \strng{fullhash}{95dd1d96805331649de01c9d732e5662}
+      \strng{bibnamehash}{95dd1d96805331649de01c9d732e5662}
+      \strng{authorbibnamehash}{95dd1d96805331649de01c9d732e5662}
+      \strng{authornamehash}{6e4f60ae876079ac622b5c4f756512ad}
+      \strng{authorfullhash}{95dd1d96805331649de01c9d732e5662}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA)}
+      \field{title}{The Synthetic Data Vault}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1109/dsaa.2016.49
+      \endverb
+      \verb{urlraw}
+      \verb https://dai.lids.mit.edu/wp-content/uploads/2018/03/SDV.pdf
+      \endverb
+      \verb{url}
+      \verb https://dai.lids.mit.edu/wp-content/uploads/2018/03/SDV.pdf
+      \endverb
+    \endentry
+    \entry{UCI}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=eea1505410ff15d1a2b081186aad5dbb}{%
+           family={Dua},
+           familyi={D\bibinitperiod},
+           given={Dheeru},
+           giveni={D\bibinitperiod}}}%
+        {{hash=00949829ae497e5a94a73f886a7d0b51}{%
+           family={Graff},
+           familyi={G\bibinitperiod},
+           given={Casey},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {University of California, Irvine, School of Information}%
+        {Computer Sciences}%
+      }
+      \strng{namehash}{43f1da911d4e973a5ddbb30a2509e1f4}
+      \strng{fullhash}{43f1da911d4e973a5ddbb30a2509e1f4}
+      \strng{bibnamehash}{43f1da911d4e973a5ddbb30a2509e1f4}
+      \strng{authorbibnamehash}{43f1da911d4e973a5ddbb30a2509e1f4}
+      \strng{authornamehash}{43f1da911d4e973a5ddbb30a2509e1f4}
+      \strng{authorfullhash}{43f1da911d4e973a5ddbb30a2509e1f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{UCI} Machine Learning Repository}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://archive.ics.uci.edu/ml
+      \endverb
+      \verb{url}
+      \verb http://archive.ics.uci.edu/ml
+      \endverb
+    \endentry
+    \entry{tbg_2018}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2923de2da7f9b32b957552e414b6bc16}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0b67b79ffddf861a67ef1ac3b977151c}{%
+           family={Fatemi},
+           familyi={F\bibinitperiod},
+           given={Valla},
+           giveni={V\bibinitperiod}}}%
+        {{hash=409225084688edae00b313fd7da87835}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Shiang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ec13cda2cbfddcda8775a94455efdce0}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5a856342313a0ed8d5c7c0315c53a88f}{%
+           family={Taniguchi},
+           familyi={T\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a54e5ea13c0cb48a4212aee979629c7e}{%
+           family={Kaxiras},
+           familyi={K\bibinitperiod},
+           given={Efthimios},
+           giveni={E\bibinitperiod}}}%
+        {{hash=104adca655c0c282c6fcedc11db38805}{%
+           family={Jarillo-Herrero},
+           familyi={J\bibinithyphendelim H\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{cab467ac8ef40058d16c2e962776b32a}
+      \strng{fullhash}{f218afc73f56314566734d42ab424500}
+      \strng{bibnamehash}{f218afc73f56314566734d42ab424500}
+      \strng{authorbibnamehash}{f218afc73f56314566734d42ab424500}
+      \strng{authornamehash}{cab467ac8ef40058d16c2e962776b32a}
+      \strng{authorfullhash}{f218afc73f56314566734d42ab424500}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7699}
+      \field{title}{Unconventional superconductivity in magic-angle graphene superlattices}
+      \field{volume}{556}
+      \field{year}{2018}
+      \field{pages}{43\bibrangedash 50}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/nature26160
+      \endverb
+    \endentry
+    \entry{hamidieh2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=730f52ccf63aacdf126637cbf4ebf8f8}{%
+           family={Hamidieh},
+           familyi={H\bibinitperiod},
+           given={Kam},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{730f52ccf63aacdf126637cbf4ebf8f8}
+      \strng{fullhash}{730f52ccf63aacdf126637cbf4ebf8f8}
+      \strng{bibnamehash}{730f52ccf63aacdf126637cbf4ebf8f8}
+      \strng{authorbibnamehash}{730f52ccf63aacdf126637cbf4ebf8f8}
+      \strng{authornamehash}{730f52ccf63aacdf126637cbf4ebf8f8}
+      \strng{authorfullhash}{730f52ccf63aacdf126637cbf4ebf8f8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We estimate a statistical model to predict the superconducting critical temperature based on the features extracted from the superconductor’s chemical formula. The statistical model gives reasonable out-of-sample predictions: ±9.5 K based on root-mean-squared-error. Features extracted based on thermal conductivity, atomic radius, valence, electron affinity, and atomic mass contribute the most to the model’s predictive accuracy. It is crucial to note that our model does not predict whether a material is a superconductor or not; it only gives predictions for superconductors.}
+      \field{issn}{0927-0256}
+      \field{journaltitle}{Computational Materials Science}
+      \field{title}{A data-driven statistical model for predicting the critical temperature of a superconductor}
+      \field{volume}{154}
+      \field{year}{2018}
+      \field{pages}{346\bibrangedash 354}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.commatsci.2018.07.052
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0927025618304877
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0927025618304877
+      \endverb
+      \keyw{Superconductivity,Superconductor,Machine learning,Statistical learning,Data mining,Critical temperature}
+    \endentry
+    \entry{CTGAN}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8988e4206730ffa0ecb54886c691cb99}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9b7d039212d2a868783eb4bb06bff6f9}{%
+           family={Skoularidou},
+           familyi={S\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=527f364b42d113d775f7544121609c0d}{%
+           family={Cuesta{-}Infante},
+           familyi={C\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f9e11fe0b69785748cd8f7d4a672635}{%
+           family={Veeramachaneni},
+           familyi={V\bibinitperiod},
+           given={Kalyan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0eb2e16d3f5307a1503547a934c8507f}
+      \strng{fullhash}{3792517035f5fe89bd748213690f37e1}
+      \strng{bibnamehash}{3792517035f5fe89bd748213690f37e1}
+      \strng{authorbibnamehash}{3792517035f5fe89bd748213690f37e1}
+      \strng{authornamehash}{0eb2e16d3f5307a1503547a934c8507f}
+      \strng{authorfullhash}{3792517035f5fe89bd748213690f37e1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Modeling Tabular data using Conditional {GAN}}
+      \field{volume}{abs/1907.00503}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1907.00503
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1907.00503
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1907.00503
+      \endverb
+    \endentry
+    \entry{https://doi.org/10.1002/adma.202000953}{article}{}
+      \name{author}{25}{}{%
+        {{hash=90741d83aed17b45cfefd8cad3d1908c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Bingnan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5ed939781e8d538ab3990499cc81c62d}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yuxuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f76c2fb23081270b57b632141303823f}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yafang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c1b809c08be7be0fe227b53abefc921b}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Nannan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3ce29c060c22dfd4b348afa3a2fb3cd3}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wenyue},
+           giveni={W\bibinitperiod}}}%
+        {{hash=18ab59e3693d06b3360df2f5626d826d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haozhe},
+           giveni={H\bibinitperiod}}}%
+        {{hash=06b5b1f4903e9a1f49a578a0cce5a35e}{%
+           family={Yasuda},
+           familyi={Y\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2588e72d0af5d9590ee7321ef680f7ea}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xirui},
+           giveni={X\bibinitperiod}}}%
+        {{hash=0b67b79ffddf861a67ef1ac3b977151c}{%
+           family={Fatemi},
+           familyi={F\bibinitperiod},
+           given={Valla},
+           giveni={V\bibinitperiod}}}%
+        {{hash=356addf20e42aa3dfa704b2b41831fe0}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=78647b8fad98801dc84dac4d78d01b23}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Joel\bibnamedelima I.-Jan},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=cf0bb5eeee79596cca755153e0390819}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Qiong},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=2923de2da7f9b32b957552e414b6bc16}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7ecc128cb29e3f01a471377ab45ae05b}{%
+           family={Rodan-Legrain},
+           familyi={R\bibinithyphendelim L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=af92083d59a78558a0dd289a2e03ba65}{%
+           family={Bie},
+           familyi={B\bibinitperiod},
+           given={Ya-Qing},
+           giveni={Y\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=8d329298f9c3b640a58c42bbc7748069}{%
+           family={Navarro-Moratalla},
+           familyi={N\bibinithyphendelim M\bibinitperiod},
+           given={Efrén},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9213e98cd897323d28e56cfd5184c988}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Dahlia},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bf2c9925b7d67865b240955a0538c8b4}{%
+           family={MacNeill},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9c9d7341090fbcc37a8a9bc4a116bfd2}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Sanfeng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=684aa1596a371bfdc8b7649fef596936}{%
+           family={Kitadai},
+           familyi={K\bibinitperiod},
+           given={Hikari},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b4f8c983e6bebcac0500f0604a845305}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=104adca655c0c282c6fcedc11db38805}{%
+           family={Jarillo-Herrero},
+           familyi={J\bibinithyphendelim H\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=eedb40b467368f82cd7cb9a454108852}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bf9ba19f9a51e96a3bcca857c267b492}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Jihao},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fc6ea1c6b8bf24e418fd37f021e18c5}{%
+           family={Palacios},
+           familyi={P\bibinitperiod},
+           given={Tomás},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a30ac594e76b1380bae4bc93b149ee02}
+      \strng{fullhash}{23536ccd74164bbc1c4dd24d0bfc5b76}
+      \strng{bibnamehash}{23536ccd74164bbc1c4dd24d0bfc5b76}
+      \strng{authorbibnamehash}{23536ccd74164bbc1c4dd24d0bfc5b76}
+      \strng{authornamehash}{a30ac594e76b1380bae4bc93b149ee02}
+      \strng{authorfullhash}{23536ccd74164bbc1c4dd24d0bfc5b76}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Advanced microscopy and/or spectroscopy tools play indispensable roles in nanoscience and nanotechnology research, as they provide rich information about material processes and properties. However, the interpretation of imaging data heavily relies on the “intuition” of experienced researchers. As a result, many of the deep graphical features obtained through these tools are often unused because of difficulties in processing the data and finding the correlations. Such challenges can be well addressed by deep learning. In this work, the optical characterization of 2D materials is used as a case study, and a neural-network-based algorithm is demonstrated for the material and thickness identification of 2D materials with high prediction accuracy and real-time processing capability. Further analysis shows that the trained network can extract deep graphical features such as contrast, color, edges, shapes, flake sizes, and their distributions, based on which an ensemble approach is developed to predict the most relevant physical properties of 2D materials. Finally, a transfer learning technique is applied to adapt the pretrained network to other optical identification applications. This artificial-intelligence-based material characterization approach is a powerful tool that would speed up the preparation, initial characterization of 2D materials and other nanomaterials, and potentially accelerate new material discoveries.}
+      \field{journaltitle}{Advanced Materials}
+      \field{number}{29}
+      \field{title}{Deep-Learning-Enabled Fast Optical Identification and Characterization of 2D Materials}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{pages}{2000953}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1002/adma.202000953
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.202000953
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202000953
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202000953
+      \endverb
+      \keyw{2D materials,deep learning,machine learning,material characterization,optical microscopy}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
