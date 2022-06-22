@@ -9,7 +9,7 @@ install_requires = [
     'torch<2,>=1.0',
     'torchvision<1,>=0.4.2',
     'scikit-learn==0.24.1',
-    'numpy==1.20.1',
+    'numpy==1.22.0',
     'pandas<2,>=0.24',
     'rdt>=0.2.7,<=0.4.0',
     'packaging',
